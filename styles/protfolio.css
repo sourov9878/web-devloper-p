@@ -1,0 +1,85 @@
+/*  common share style */
+body {
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.text-primary {
+  color: #FD6E0A;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  border: 0px;
+  color: white;
+  font-weight: 20px;
+  font-size: 20px;
+  padding: 15px 35px;
+
+}
+
+/*-------------------*/
+
+header {
+  background-color: #FFF8F3;
+  height: 837px;
+  background-image: url('image/devloper.png');
+}
+
+
+.logo-title {
+
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+
+}
+
+
+
+/*  nav style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+
+
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* ---------------------- */
+/* banner */
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+
+}
+
+.banner .profile-pic {
+  width: 500px;
+  padding-bottom: 0px;
+
+}

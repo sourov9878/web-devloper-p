@@ -235,15 +235,37 @@ main {
 /* colum icons */
 .social-links{
   display: flex;
+  gap: 15px;
 } 
 footer{
   display: flex;
   background-color: #FFF8F3;
   margin-top: 100px;
   padding:130px 200px ;
-  gap: 30px;
+  gap: 100px;
   
 }
+.footer-colum{
+  width: 50%;
+  text-align: left;
+ 
+}
+
+.contact input[type="text"], .contact input[type="Email"], textarea {
+  display: block;
+  margin-bottom: 24px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: none;
+  width:100%
+
+}
+.contact input{
+  width:;
+}
+
 
 
 /* about sections  */

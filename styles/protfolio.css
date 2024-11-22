@@ -169,6 +169,7 @@ main {
 
 .info-description {
   font-weight: 700;
+  padding: 0px;
 }
 
 .content-box {

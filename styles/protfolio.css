@@ -298,6 +298,32 @@ textarea {
 
 @media screen and (max-width:576px) {
 
+  ..btn-primary {
+    align-items: center;
+  }
+
+  .banner-title{
+    font-size:59px ;
+  }
+  .banner .profile-pic{
+    width:368px;
+  }
+  nav{
+    flex-direction: column;
+  }
+ 
+  .btn-contact{
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner{
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+ 
   .skill-container,
   .resume-container,
   footer {
@@ -349,6 +375,13 @@ textarea {
 
 @media screen and (min-width:576px) and (max-width:960px) {
 
+
+
+  .btn-contact{
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;}
+  
   .resume-container{
     padding: 20px;
   }

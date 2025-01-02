@@ -22,7 +22,8 @@ body {
   font-size: 20px;
   padding: 15px 35px;
 }
-.btn-contact{
+
+.btn-contact {
   background-color: #ffffff;
   border-radius: 5px;
   margin-left: 10px;
@@ -32,7 +33,7 @@ body {
   font-size: 20px;
   padding: 15px 35px;
   border: #FD6E0A 1px solid;
-  
+
 
 }
 
@@ -67,7 +68,7 @@ header {
   background-color: #FFF8F3;
   background-image: url('../images/header_bg.png'), url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right , top left;
+  background-position: bottom right, top left;
 }
 
 
@@ -222,6 +223,7 @@ main {
 .resume-items-institute {
   color: #757575
 }
+
 .resume-items-institute {
   margin-top: 0px;
   margin-bottom: 20px;
@@ -239,32 +241,37 @@ main {
   margin: 30px;
 }
 
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 50px;
 }
+
 /* footer */
 
 /* colum icons */
-.social-links{
+.social-links {
   display: flex;
   gap: 15px;
-} 
-footer{
+}
+
+footer {
   display: flex;
   background-color: #FFF8F3;
   margin-top: 100px;
-  padding:130px 200px ;
+  padding: 130px 200px;
   gap: 100px;
-  
-}
-.footer-colum{
-  width: 50%;
-  text-align: left;
- 
+
 }
 
-.contact input[type="text"], .contact input[type="Email"], textarea {
+.footer-colum {
+  width: 50%;
+  text-align: left;
+
+}
+
+.contact input[type="text"],
+.contact input[type="Email"],
+textarea {
   display: block;
   margin-bottom: 24px;
   padding: 18px 35px;
@@ -272,21 +279,92 @@ footer{
   border-radius: 5px;
   background-color: #ffffff;
   border: none;
-  width:100%
-
+  width: 100%
 }
-.contact input{
-  width:;
+
+.contact input {
+  width: 70%;
 }
 
 
 
 /* about sections  */
 
-/* this is for responsice */
+/* this is for Responsive */
+.hide {
+  display: none;
+}
 
 
-@media screen and(max-width:576px) {
+@media screen and (max-width:576px) {
 
-  
+  .skill-container,
+  .resume-container,
+  footer {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  #what-description {
+    padding: 5px;
+  }
+
+  footer {
+    padding: 0px;
+    align-items: center;
+  }
+
+  .footer-colum {
+    align-items: center;
+    padding: 10x;
+  }
+
+  .contact input[type="text"],
+  .contact input[type="Email"],
+  textarea {
+    width: 80%;
+  }
+
+  .about,.section-description  {
+    padding: 23px;
+  }
+
+  .about-info-container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .about-info{
+    padding-top: 0px;
+  }
+
+  .section-title{
+    font-size: 22px;
+  }
+
+
+
+
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+
+  .resume-container{
+    padding: 20px;
+  }
+  footer {
+    position: relative;
+    justify-content: center;
+
+    margin-left: 0px;
+  }
+
+  .contact input {
+    width: 100%;
+  }
+
+  .footer-colum {
+    align-items: center;
+    padding: 10x;
+  }
 }
